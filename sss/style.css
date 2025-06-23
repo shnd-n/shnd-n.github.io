@@ -1,0 +1,14 @@
+/* 스크롤이 될 div 설정 */
+.scroll-container {
+  width: 300px;         /* 너비 */
+  height: 300px;        /* 높이 */
+  overflow: auto;       /* 넘치는 콘텐츠에 대해 스크롤 바를 표시 */
+  border: 2px solid #007acc; /* 경계선 */
+  padding: 10px;        /* 안쪽 여백 */
+}
+
+.content {
+  height: 600px;        /* 내용이 넘치도록 높이를 크게 설정 */
+  background-color: #f0f0f0;
+  text-align: center;
+}
