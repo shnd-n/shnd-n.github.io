@@ -9,6 +9,14 @@
 
 .content {
   height: 600px;        /* 내용이 넘치도록 높이를 크게 설정 */
-  background-color: #70cf18;
+  background-color:rgb(243, 243, 243);
   text-align: center;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
 }
